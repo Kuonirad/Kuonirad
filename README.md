@@ -50,7 +50,9 @@ and whose causality is *respected*.
 
 A reference implementation of the Meta-Cognitive Operating Protocol — self-auditing reasoning loops with conserved-energy budgets and DAG-preserving causality.
 
-`TypeScript` · ★ 1 → [**Open repo →**](https://github.com/Kuonirad/MCOP-Framework-2.0)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=0d0d12&logo=typescript&logoColor=ffffff) ![stars](https://img.shields.io/github/stars/Kuonirad/MCOP-Framework-2.0?style=flat-square&label=%E2%98%85&color=e8c275&labelColor=0d0d12)
+
+[**Open repo →**](https://github.com/Kuonirad/MCOP-Framework-2.0)
 
 </td>
 <td valign="top" width="33%">
@@ -62,7 +64,9 @@ A reference implementation of the Meta-Cognitive Operating Protocol — self-aud
 
 Prototype: probabilistic truth assignment via thermodynamic free-energy minimization. Treats inference as a system relaxing toward equilibrium.
 
-`Python` · ★ 1 → [**Open repo →**](https://github.com/Kuonirad/thermo-truth-proto)
+![Python](https://img.shields.io/badge/Python-3572A5?style=flat-square&labelColor=0d0d12&logo=python&logoColor=ffffff) ![stars](https://img.shields.io/github/stars/Kuonirad/thermo-truth-proto?style=flat-square&label=%E2%98%85&color=9fd9e8&labelColor=0d0d12)
+
+[**Open repo →**](https://github.com/Kuonirad/thermo-truth-proto)
 
 </td>
 <td valign="top" width="33%">
@@ -70,11 +74,13 @@ Prototype: probabilistic truth assignment via thermodynamic free-energy minimiza
 ![](https://img.shields.io/badge/03%20%2F%2003-e08abf?style=flat-square&labelColor=0d0d12)
 
 #### Sensory-Tracer *Science*
-<sub>`github.com/Kuonirad/Sensory-Tracer-Science-...`</sub>
+<sub>`github.com/Kuonirad/Sensory-Tracer-Science`</sub>
 
 Proposal for a new subfield: tracing perceptual signals through reasoning stacks the way isotopes trace metabolism. End-to-end attribution as a primitive.
 
-`Python` · ★ 1 → [**Open repo →**](https://github.com/Kuonirad/Sensory-Tracer-Science-STS-Proposal-for-a-New-Subfield)
+![Python](https://img.shields.io/badge/Python-3572A5?style=flat-square&labelColor=0d0d12&logo=python&logoColor=ffffff) ![stars](https://img.shields.io/github/stars/Kuonirad/Sensory-Tracer-Science-STS-Proposal-for-a-New-Subfield?style=flat-square&label=%E2%98%85&color=e08abf&labelColor=0d0d12)
+
+[**Open repo →**](https://github.com/Kuonirad/Sensory-Tracer-Science-STS-Proposal-for-a-New-Subfield)
 
 </td>
 </tr>
