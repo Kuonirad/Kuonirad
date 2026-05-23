@@ -106,6 +106,16 @@ Proposal for a new subfield: tracing perceptual signals through reasoning stacks
 14:02:17  sign::    commit 0x4B4B…F7E1 written
 ```
 
+#### `/ dr. audit` &nbsp;—&nbsp; *the same dynamic, visualized*
+
+<div align="center">
+
+<img src="dr-audit.svg" width="560" alt="Dr. Audit — capsules clearing drift viruses in real time" />
+
+</div>
+
+A Dr. Mario offshoot. **Drift viruses** (plasma) accumulate in the bottle when reasoning leaves residue. **Audit capsules** (solar / cyan / sage) fall from above; aligning four-in-a-row of one color removes the run. Same loop as the trace above — just rendered as a containment game. Pre-baked SMIL, no JS, ~48 s cycle.
+
 <details>
 <summary><code>/ ledger · trajectory</code></summary>
 

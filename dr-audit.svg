@@ -1,0 +1,2920 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 526" width="456" height="526" role="img" aria-label="Dr. Audit — self-auditing capsules clearing drift viruses">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#1a2535" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d0d12" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a24" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0d0d12" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" rx="22" ry="22" fill="url(#bg)"/>
+
+  <!-- bottle chrome: neck + body -->
+  <path d="M 6 38 L 6 480 Q 6 490 16 490 L 220 490 Q 230 490 230 480 L 230 38 L 196 38 L 196 26 L 40 26 L 40 38 Z"
+        fill="url(#bottle)" stroke="#f3eee3" stroke-opacity="0.22" stroke-width="1"/>
+  <!-- bottle inner playfield outline -->
+  <rect x="14" y="56" width="208" height="416" fill="none" stroke="#f3eee3" stroke-opacity="0.12"/>
+
+  <!-- faint grid -->
+  <g stroke="#f3eee3" stroke-opacity="0.05">
+    <line x1="40" y1="56" x2="40" y2="472"/>
+    <line x1="66" y1="56" x2="66" y2="472"/>
+    <line x1="92" y1="56" x2="92" y2="472"/>
+    <line x1="118" y1="56" x2="118" y2="472"/>
+    <line x1="144" y1="56" x2="144" y2="472"/>
+    <line x1="170" y1="56" x2="170" y2="472"/>
+    <line x1="196" y1="56" x2="196" y2="472"/>
+    <line x1="14" y1="82" x2="222" y2="82"/>
+    <line x1="14" y1="108" x2="222" y2="108"/>
+    <line x1="14" y1="134" x2="222" y2="134"/>
+    <line x1="14" y1="160" x2="222" y2="160"/>
+    <line x1="14" y1="186" x2="222" y2="186"/>
+    <line x1="14" y1="212" x2="222" y2="212"/>
+    <line x1="14" y1="238" x2="222" y2="238"/>
+    <line x1="14" y1="264" x2="222" y2="264"/>
+    <line x1="14" y1="290" x2="222" y2="290"/>
+    <line x1="14" y1="316" x2="222" y2="316"/>
+    <line x1="14" y1="342" x2="222" y2="342"/>
+    <line x1="14" y1="368" x2="222" y2="368"/>
+    <line x1="14" y1="394" x2="222" y2="394"/>
+    <line x1="14" y1="420" x2="222" y2="420"/>
+    <line x1="14" y1="446" x2="222" y2="446"/>
+  </g>
+  <g font-family="ui-monospace,SF Mono,Menlo,monospace" fill="#f3eee3">
+    <text x="14" y="16" font-size="13" fill="#9fd9e8" font-weight="500">/ DR. AUDIT</text>
+    <text x="230" y="16" text-anchor="end" font-size="10" fill="#6f7388" letter-spacing="0.18em">DRIFT · CONTAINMENT</text>
+
+    <text x="246" y="68" font-size="10" fill="#6f7388" letter-spacing="0.2em">LEVEL</text>
+    <text x="246" y="90" font-size="20" fill="#f3eee3">01</text>
+
+    <text x="246" y="126" font-size="10" fill="#6f7388" letter-spacing="0.2em">VIRUSES</text>
+    <text x="246" y="148" font-size="20" fill="#e08abf">09</text>
+    <text x="280" y="148" font-size="11" fill="#6f7388">remaining</text>
+
+    <text x="246" y="186" font-size="10" fill="#6f7388" letter-spacing="0.2em">NEXT</text>
+    <rect x="246" y="194" width="56" height="34" rx="6" fill="#1a1a24" stroke="#f3eee3" stroke-opacity="0.12"/>
+    <circle cx="263.0" cy="211.0" r="10.0" fill="#e8c275" opacity="0.85"/>
+    <circle cx="289.0" cy="211.0" r="10.0" fill="#9fd9e8" opacity="0.85"/>
+
+    <text x="246" y="256" font-size="10" fill="#6f7388" letter-spacing="0.2em">LEGEND</text>
+    <circle cx="254" cy="276" r="6" fill="#e08abf" opacity="0.85"/>
+    <text x="268" y="280" font-size="11" fill="#f3eee3" fill-opacity="0.85">drift virus</text>
+    <rect x="247" y="290" width="14" height="14" rx="4" fill="#e8c275" opacity="0.85"/>
+    <text x="268" y="302" font-size="11" fill="#f3eee3" fill-opacity="0.85">solar capsule</text>
+    <rect x="247" y="312" width="14" height="14" rx="4" fill="#9fd9e8" opacity="0.85"/>
+    <text x="268" y="324" font-size="11" fill="#f3eee3" fill-opacity="0.85">cyan capsule</text>
+    <rect x="247" y="334" width="14" height="14" rx="4" fill="#b6d9bf" opacity="0.85"/>
+    <text x="268" y="346" font-size="11" fill="#f3eee3" fill-opacity="0.85">sage capsule</text>
+
+    <text x="14" y="504" font-size="9.5" fill="#6f7388" letter-spacing="0.22em">// COGNITION · CONTAINS · ITSELF</text>
+    <text x="442" y="504" text-anchor="end" font-size="9.5" fill="#6f7388" letter-spacing="0.22em">CYCLE · 110 TICKS</text>
+  </g>
+
+  <!-- pulsing "PLAY" dot -->
+  <circle cx="240" cy="12" r="3.5" fill="#b6d9bf">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- cells -->
+  <g>
+    <g transform="translate(14,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.14s"/>
+        <set attributeName="opacity" to="0.9" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="38.64s"/>
+        <set attributeName="opacity" to="0.9" begin="38.64s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="38.64s"/>
+        <set attributeName="opacity" to="0" begin="38.64s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="38.64s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+      </g>
+    </g>
+    <g transform="translate(40,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.14s"/>
+        <set attributeName="opacity" to="0.9" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="7.14s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+      </g>
+    </g>
+    <g transform="translate(66,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="19.74s"/>
+        <set attributeName="opacity" to="0.9" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+      </g>
+    </g>
+    <g transform="translate(92,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="19.74s"/>
+        <set attributeName="opacity" to="0.9" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="19.74s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+      </g>
+    </g>
+    <g transform="translate(118,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="31.92s"/>
+        <set attributeName="opacity" to="0.9" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+      </g>
+    </g>
+    <g transform="translate(144,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="31.92s"/>
+        <set attributeName="opacity" to="0.9" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="31.92s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+      </g>
+    </g>
+    <g transform="translate(170,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="0.42s"/>
+        <set attributeName="opacity" to="0.9" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="26.46s"/>
+        <set attributeName="opacity" to="0.9" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+      </g>
+    </g>
+    <g transform="translate(196,56)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="0.42s"/>
+        <set attributeName="opacity" to="0.9" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="fill" to="#e8c275" begin="13.86s"/>
+        <set attributeName="opacity" to="0.9" begin="13.86s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="fill" to="#e8c275" begin="26.46s"/>
+        <set attributeName="opacity" to="0.9" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="fill" to="#e8c275" begin="13.86s"/>
+        <set attributeName="opacity" to="0" begin="13.86s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="fill" to="#e8c275" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="0.42s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="13.86s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="26.46s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+      </g>
+    </g>
+    <g transform="translate(14,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.56s"/>
+        <set attributeName="opacity" to="0.9" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="fill" to="#e8c275" begin="38.64s"/>
+        <set attributeName="opacity" to="0.9" begin="38.64s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="39.06s"/>
+        <set attributeName="opacity" to="0.9" begin="39.06s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="fill" to="#e8c275" begin="38.64s"/>
+        <set attributeName="opacity" to="0" begin="38.64s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="39.06s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="38.64s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+      </g>
+    </g>
+    <g transform="translate(40,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.56s"/>
+        <set attributeName="opacity" to="0.9" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="7.56s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+      </g>
+    </g>
+    <g transform="translate(66,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="20.16s"/>
+        <set attributeName="opacity" to="0.9" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+      </g>
+    </g>
+    <g transform="translate(92,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="20.16s"/>
+        <set attributeName="opacity" to="0.9" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="20.16s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+      </g>
+    </g>
+    <g transform="translate(118,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="32.34s"/>
+        <set attributeName="opacity" to="0.9" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+      </g>
+    </g>
+    <g transform="translate(144,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="32.34s"/>
+        <set attributeName="opacity" to="0.9" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="32.34s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+      </g>
+    </g>
+    <g transform="translate(170,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="0.84s"/>
+        <set attributeName="opacity" to="0.9" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="26.88s"/>
+        <set attributeName="opacity" to="0.9" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+      </g>
+    </g>
+    <g transform="translate(196,82)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="0.84s"/>
+        <set attributeName="opacity" to="0.9" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="13.86s"/>
+        <set attributeName="opacity" to="0.9" begin="13.86s"/>
+        <set attributeName="fill" to="#e8c275" begin="14.28s"/>
+        <set attributeName="opacity" to="0.9" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="fill" to="#e8c275" begin="26.88s"/>
+        <set attributeName="opacity" to="0.9" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="13.86s"/>
+        <set attributeName="opacity" to="0" begin="13.86s"/>
+        <set attributeName="fill" to="#e8c275" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="fill" to="#e8c275" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="0.84s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="13.86s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="26.88s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+      </g>
+    </g>
+    <g transform="translate(14,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.98s"/>
+        <set attributeName="opacity" to="0.9" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="fill" to="#e8c275" begin="39.06s"/>
+        <set attributeName="opacity" to="0.9" begin="39.06s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="39.48s"/>
+        <set attributeName="opacity" to="0.9" begin="39.48s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="fill" to="#e8c275" begin="39.06s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="39.48s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="39.06s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+      </g>
+    </g>
+    <g transform="translate(40,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.98s"/>
+        <set attributeName="opacity" to="0.9" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="7.98s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+      </g>
+    </g>
+    <g transform="translate(66,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="20.58s"/>
+        <set attributeName="opacity" to="0.9" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+      </g>
+    </g>
+    <g transform="translate(92,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="20.58s"/>
+        <set attributeName="opacity" to="0.9" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="20.58s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+      </g>
+    </g>
+    <g transform="translate(118,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="32.76s"/>
+        <set attributeName="opacity" to="0.9" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+      </g>
+    </g>
+    <g transform="translate(144,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="32.76s"/>
+        <set attributeName="opacity" to="0.9" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="32.76s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+      </g>
+    </g>
+    <g transform="translate(170,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="1.26s"/>
+        <set attributeName="opacity" to="0.9" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="27.30s"/>
+        <set attributeName="opacity" to="0.9" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+      </g>
+    </g>
+    <g transform="translate(196,108)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="1.26s"/>
+        <set attributeName="opacity" to="0.9" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="14.28s"/>
+        <set attributeName="opacity" to="0.9" begin="14.28s"/>
+        <set attributeName="fill" to="#e8c275" begin="14.70s"/>
+        <set attributeName="opacity" to="0.9" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="fill" to="#e8c275" begin="27.30s"/>
+        <set attributeName="opacity" to="0.9" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="fill" to="#e8c275" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="fill" to="#e8c275" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="1.26s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="14.28s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="27.30s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+      </g>
+    </g>
+    <g transform="translate(14,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.40s"/>
+        <set attributeName="opacity" to="0.9" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="fill" to="#e8c275" begin="39.48s"/>
+        <set attributeName="opacity" to="0.9" begin="39.48s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="39.90s"/>
+        <set attributeName="opacity" to="0.9" begin="39.90s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="fill" to="#e8c275" begin="39.48s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="39.90s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="39.48s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+      </g>
+    </g>
+    <g transform="translate(40,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.40s"/>
+        <set attributeName="opacity" to="0.9" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="8.40s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+      </g>
+    </g>
+    <g transform="translate(66,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="21.00s"/>
+        <set attributeName="opacity" to="0.9" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+      </g>
+    </g>
+    <g transform="translate(92,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="21.00s"/>
+        <set attributeName="opacity" to="0.9" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="21.00s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+      </g>
+    </g>
+    <g transform="translate(118,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="33.18s"/>
+        <set attributeName="opacity" to="0.9" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+      </g>
+    </g>
+    <g transform="translate(144,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="33.18s"/>
+        <set attributeName="opacity" to="0.9" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="33.18s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+      </g>
+    </g>
+    <g transform="translate(170,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="1.68s"/>
+        <set attributeName="opacity" to="0.9" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="27.72s"/>
+        <set attributeName="opacity" to="0.9" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+      </g>
+    </g>
+    <g transform="translate(196,134)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="1.68s"/>
+        <set attributeName="opacity" to="0.9" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="14.70s"/>
+        <set attributeName="opacity" to="0.9" begin="14.70s"/>
+        <set attributeName="fill" to="#e8c275" begin="15.12s"/>
+        <set attributeName="opacity" to="0.9" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="fill" to="#e8c275" begin="27.72s"/>
+        <set attributeName="opacity" to="0.9" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="fill" to="#e8c275" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="fill" to="#e8c275" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="1.68s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="14.70s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="27.72s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+      </g>
+    </g>
+    <g transform="translate(14,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.82s"/>
+        <set attributeName="opacity" to="0.9" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="fill" to="#e8c275" begin="39.90s"/>
+        <set attributeName="opacity" to="0.9" begin="39.90s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="40.32s"/>
+        <set attributeName="opacity" to="0.9" begin="40.32s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="fill" to="#e8c275" begin="39.90s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="40.32s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="39.90s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+      </g>
+    </g>
+    <g transform="translate(40,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.82s"/>
+        <set attributeName="opacity" to="0.9" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="8.82s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+      </g>
+    </g>
+    <g transform="translate(66,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="21.42s"/>
+        <set attributeName="opacity" to="0.9" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+      </g>
+    </g>
+    <g transform="translate(92,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="21.42s"/>
+        <set attributeName="opacity" to="0.9" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="21.42s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+      </g>
+    </g>
+    <g transform="translate(118,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="33.60s"/>
+        <set attributeName="opacity" to="0.9" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+      </g>
+    </g>
+    <g transform="translate(144,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="33.60s"/>
+        <set attributeName="opacity" to="0.9" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="33.60s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+      </g>
+    </g>
+    <g transform="translate(170,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="2.10s"/>
+        <set attributeName="opacity" to="0.9" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="28.14s"/>
+        <set attributeName="opacity" to="0.9" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+      </g>
+    </g>
+    <g transform="translate(196,160)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="2.10s"/>
+        <set attributeName="opacity" to="0.9" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="15.12s"/>
+        <set attributeName="opacity" to="0.9" begin="15.12s"/>
+        <set attributeName="fill" to="#e8c275" begin="15.54s"/>
+        <set attributeName="opacity" to="0.9" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="fill" to="#e8c275" begin="28.14s"/>
+        <set attributeName="opacity" to="0.9" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="fill" to="#e8c275" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="fill" to="#e8c275" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="2.10s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="15.12s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="28.14s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+      </g>
+    </g>
+    <g transform="translate(14,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.24s"/>
+        <set attributeName="opacity" to="0.9" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="fill" to="#e8c275" begin="40.32s"/>
+        <set attributeName="opacity" to="0.9" begin="40.32s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="40.74s"/>
+        <set attributeName="opacity" to="0.9" begin="40.74s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="fill" to="#e8c275" begin="40.32s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="40.74s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="40.32s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+      </g>
+    </g>
+    <g transform="translate(40,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.24s"/>
+        <set attributeName="opacity" to="0.9" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="9.24s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+      </g>
+    </g>
+    <g transform="translate(66,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="21.84s"/>
+        <set attributeName="opacity" to="0.9" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+      </g>
+    </g>
+    <g transform="translate(92,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="21.84s"/>
+        <set attributeName="opacity" to="0.9" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="21.84s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+      </g>
+    </g>
+    <g transform="translate(118,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="34.02s"/>
+        <set attributeName="opacity" to="0.9" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+      </g>
+    </g>
+    <g transform="translate(144,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="34.02s"/>
+        <set attributeName="opacity" to="0.9" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="34.02s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+      </g>
+    </g>
+    <g transform="translate(170,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="2.52s"/>
+        <set attributeName="opacity" to="0.9" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="28.56s"/>
+        <set attributeName="opacity" to="0.9" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+      </g>
+    </g>
+    <g transform="translate(196,186)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="2.52s"/>
+        <set attributeName="opacity" to="0.9" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="15.54s"/>
+        <set attributeName="opacity" to="0.9" begin="15.54s"/>
+        <set attributeName="fill" to="#e8c275" begin="15.96s"/>
+        <set attributeName="opacity" to="0.9" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="fill" to="#e8c275" begin="28.56s"/>
+        <set attributeName="opacity" to="0.9" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="fill" to="#e8c275" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="fill" to="#e8c275" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="2.52s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="15.54s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="28.56s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+      </g>
+    </g>
+    <g transform="translate(14,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.66s"/>
+        <set attributeName="opacity" to="0.9" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="fill" to="#e8c275" begin="40.74s"/>
+        <set attributeName="opacity" to="0.9" begin="40.74s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="41.16s"/>
+        <set attributeName="opacity" to="0.9" begin="41.16s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="fill" to="#e8c275" begin="40.74s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="41.16s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="40.74s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+      </g>
+    </g>
+    <g transform="translate(40,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.66s"/>
+        <set attributeName="opacity" to="0.9" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="9.66s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+      </g>
+    </g>
+    <g transform="translate(66,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="22.26s"/>
+        <set attributeName="opacity" to="0.9" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+      </g>
+    </g>
+    <g transform="translate(92,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="22.26s"/>
+        <set attributeName="opacity" to="0.9" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="22.26s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+      </g>
+    </g>
+    <g transform="translate(118,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="34.44s"/>
+        <set attributeName="opacity" to="0.9" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+      </g>
+    </g>
+    <g transform="translate(144,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="34.44s"/>
+        <set attributeName="opacity" to="0.9" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="34.44s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+      </g>
+    </g>
+    <g transform="translate(170,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="2.94s"/>
+        <set attributeName="opacity" to="0.9" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="28.98s"/>
+        <set attributeName="opacity" to="0.9" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+      </g>
+    </g>
+    <g transform="translate(196,212)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="2.94s"/>
+        <set attributeName="opacity" to="0.9" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="15.96s"/>
+        <set attributeName="opacity" to="0.9" begin="15.96s"/>
+        <set attributeName="fill" to="#e8c275" begin="16.38s"/>
+        <set attributeName="opacity" to="0.9" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="fill" to="#e8c275" begin="28.98s"/>
+        <set attributeName="opacity" to="0.9" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="fill" to="#e8c275" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="fill" to="#e8c275" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="2.94s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="15.96s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="28.98s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+      </g>
+    </g>
+    <g transform="translate(14,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.08s"/>
+        <set attributeName="opacity" to="0.9" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="fill" to="#e8c275" begin="41.16s"/>
+        <set attributeName="opacity" to="0.9" begin="41.16s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="41.58s"/>
+        <set attributeName="opacity" to="0.9" begin="41.58s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="fill" to="#e8c275" begin="41.16s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="41.58s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="41.16s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+      </g>
+    </g>
+    <g transform="translate(40,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.08s"/>
+        <set attributeName="opacity" to="0.9" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="10.08s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+      </g>
+    </g>
+    <g transform="translate(66,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="22.68s"/>
+        <set attributeName="opacity" to="0.9" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+      </g>
+    </g>
+    <g transform="translate(92,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="22.68s"/>
+        <set attributeName="opacity" to="0.9" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="22.68s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+      </g>
+    </g>
+    <g transform="translate(118,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="34.86s"/>
+        <set attributeName="opacity" to="0.9" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+      </g>
+    </g>
+    <g transform="translate(144,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="34.86s"/>
+        <set attributeName="opacity" to="0.9" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="34.86s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+      </g>
+    </g>
+    <g transform="translate(170,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="3.36s"/>
+        <set attributeName="opacity" to="0.9" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="29.40s"/>
+        <set attributeName="opacity" to="0.9" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+      </g>
+    </g>
+    <g transform="translate(196,238)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="3.36s"/>
+        <set attributeName="opacity" to="0.9" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="16.38s"/>
+        <set attributeName="opacity" to="0.9" begin="16.38s"/>
+        <set attributeName="fill" to="#e8c275" begin="16.80s"/>
+        <set attributeName="opacity" to="0.9" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="fill" to="#e8c275" begin="29.40s"/>
+        <set attributeName="opacity" to="0.9" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="fill" to="#e8c275" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="fill" to="#e8c275" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="3.36s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="16.38s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="29.40s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+      </g>
+    </g>
+    <g transform="translate(14,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.50s"/>
+        <set attributeName="opacity" to="0.9" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="fill" to="#e8c275" begin="41.58s"/>
+        <set attributeName="opacity" to="0.9" begin="41.58s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="42.00s"/>
+        <set attributeName="opacity" to="0.9" begin="42.00s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="fill" to="#e8c275" begin="41.58s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="42.00s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="41.58s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+      </g>
+    </g>
+    <g transform="translate(40,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.50s"/>
+        <set attributeName="opacity" to="0.9" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="10.50s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+      </g>
+    </g>
+    <g transform="translate(66,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="23.10s"/>
+        <set attributeName="opacity" to="0.9" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+      </g>
+    </g>
+    <g transform="translate(92,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="23.10s"/>
+        <set attributeName="opacity" to="0.9" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="23.10s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+      </g>
+    </g>
+    <g transform="translate(118,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="35.28s"/>
+        <set attributeName="opacity" to="0.9" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+      </g>
+    </g>
+    <g transform="translate(144,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="35.28s"/>
+        <set attributeName="opacity" to="0.9" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="35.28s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+      </g>
+    </g>
+    <g transform="translate(170,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="3.78s"/>
+        <set attributeName="opacity" to="0.9" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="29.82s"/>
+        <set attributeName="opacity" to="0.9" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+      </g>
+    </g>
+    <g transform="translate(196,264)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="3.78s"/>
+        <set attributeName="opacity" to="0.9" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="16.80s"/>
+        <set attributeName="opacity" to="0.9" begin="16.80s"/>
+        <set attributeName="fill" to="#e8c275" begin="17.22s"/>
+        <set attributeName="opacity" to="0.9" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="fill" to="#e8c275" begin="29.82s"/>
+        <set attributeName="opacity" to="0.9" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="fill" to="#e8c275" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="fill" to="#e8c275" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="3.78s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="16.80s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="29.82s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+      </g>
+    </g>
+    <g transform="translate(14,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.92s"/>
+        <set attributeName="opacity" to="0.9" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="fill" to="#e8c275" begin="42.00s"/>
+        <set attributeName="opacity" to="0.9" begin="42.00s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="42.42s"/>
+        <set attributeName="opacity" to="0.9" begin="42.42s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="fill" to="#e8c275" begin="42.00s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="42.42s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="42.00s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+      </g>
+    </g>
+    <g transform="translate(40,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.92s"/>
+        <set attributeName="opacity" to="0.9" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="10.92s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+      </g>
+    </g>
+    <g transform="translate(66,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="23.52s"/>
+        <set attributeName="opacity" to="0.9" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+      </g>
+    </g>
+    <g transform="translate(92,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="23.52s"/>
+        <set attributeName="opacity" to="0.9" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="23.52s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+      </g>
+    </g>
+    <g transform="translate(118,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="35.70s"/>
+        <set attributeName="opacity" to="0.9" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+      </g>
+    </g>
+    <g transform="translate(144,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="35.70s"/>
+        <set attributeName="opacity" to="0.9" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="35.70s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+      </g>
+    </g>
+    <g transform="translate(170,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="4.20s"/>
+        <set attributeName="opacity" to="0.9" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="30.24s"/>
+        <set attributeName="opacity" to="0.9" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+      </g>
+    </g>
+    <g transform="translate(196,290)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="4.20s"/>
+        <set attributeName="opacity" to="0.9" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="17.22s"/>
+        <set attributeName="opacity" to="0.9" begin="17.22s"/>
+        <set attributeName="fill" to="#e8c275" begin="17.64s"/>
+        <set attributeName="opacity" to="0.9" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="fill" to="#e8c275" begin="30.24s"/>
+        <set attributeName="opacity" to="0.9" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="fill" to="#e8c275" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="fill" to="#e8c275" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="4.20s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="17.22s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="30.24s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+      </g>
+    </g>
+    <g transform="translate(14,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.34s"/>
+        <set attributeName="opacity" to="0.9" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="fill" to="#e8c275" begin="42.42s"/>
+        <set attributeName="opacity" to="0.9" begin="42.42s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="42.84s"/>
+        <set attributeName="opacity" to="0.9" begin="42.84s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="fill" to="#e8c275" begin="42.42s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="42.84s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="42.42s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+      </g>
+    </g>
+    <g transform="translate(40,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.34s"/>
+        <set attributeName="opacity" to="0.9" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="11.34s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+      </g>
+    </g>
+    <g transform="translate(66,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="23.94s"/>
+        <set attributeName="opacity" to="0.9" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+      </g>
+    </g>
+    <g transform="translate(92,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="23.94s"/>
+        <set attributeName="opacity" to="0.9" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="23.94s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+      </g>
+    </g>
+    <g transform="translate(118,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="36.12s"/>
+        <set attributeName="opacity" to="0.9" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+      </g>
+    </g>
+    <g transform="translate(144,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="36.12s"/>
+        <set attributeName="opacity" to="0.9" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="36.12s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+      </g>
+    </g>
+    <g transform="translate(170,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="4.62s"/>
+        <set attributeName="opacity" to="0.9" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="30.66s"/>
+        <set attributeName="opacity" to="0.9" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+      </g>
+    </g>
+    <g transform="translate(196,316)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="4.62s"/>
+        <set attributeName="opacity" to="0.9" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="17.64s"/>
+        <set attributeName="opacity" to="0.9" begin="17.64s"/>
+        <set attributeName="fill" to="#e8c275" begin="18.06s"/>
+        <set attributeName="opacity" to="0.9" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="fill" to="#e8c275" begin="30.66s"/>
+        <set attributeName="opacity" to="0.9" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="fill" to="#e8c275" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="fill" to="#e8c275" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="4.62s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="17.64s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="30.66s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+      </g>
+    </g>
+    <g transform="translate(14,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.76s"/>
+        <set attributeName="opacity" to="0.9" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="fill" to="#e8c275" begin="42.84s"/>
+        <set attributeName="opacity" to="0.9" begin="42.84s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="43.26s"/>
+        <set attributeName="opacity" to="0.9" begin="43.26s"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="fill" to="#e8c275" begin="42.84s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="43.26s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="42.84s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+      </g>
+    </g>
+    <g transform="translate(40,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.76s"/>
+        <set attributeName="opacity" to="0.9" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="11.76s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+      </g>
+    </g>
+    <g transform="translate(66,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="24.36s"/>
+        <set attributeName="opacity" to="0.9" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+      </g>
+    </g>
+    <g transform="translate(92,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="24.36s"/>
+        <set attributeName="opacity" to="0.9" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="24.36s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+      </g>
+    </g>
+    <g transform="translate(118,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="36.54s"/>
+        <set attributeName="opacity" to="0.9" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+      </g>
+    </g>
+    <g transform="translate(144,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="36.54s"/>
+        <set attributeName="opacity" to="0.9" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="36.54s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+      </g>
+    </g>
+    <g transform="translate(170,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="5.04s"/>
+        <set attributeName="opacity" to="0.9" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="31.08s"/>
+        <set attributeName="opacity" to="0.9" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </g>
+    </g>
+    <g transform="translate(196,342)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="5.04s"/>
+        <set attributeName="opacity" to="0.9" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="18.06s"/>
+        <set attributeName="opacity" to="0.9" begin="18.06s"/>
+        <set attributeName="fill" to="#e8c275" begin="18.48s"/>
+        <set attributeName="opacity" to="0.9" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="fill" to="#e8c275" begin="31.08s"/>
+        <set attributeName="opacity" to="0.9" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="fill" to="#e8c275" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="fill" to="#e8c275" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="5.04s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="18.06s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="31.08s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </g>
+    </g>
+    <g transform="translate(14,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.18s"/>
+        <set attributeName="opacity" to="0.9" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="13.44s"/>
+        <set attributeName="fill" to="#e8c275" begin="43.26s"/>
+        <set attributeName="opacity" to="0.9" begin="43.26s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="43.68s"/>
+        <set attributeName="opacity" to="0.9" begin="43.68s"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="13.44s"/>
+        <set attributeName="fill" to="#e8c275" begin="43.26s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="43.68s"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="13.44s"/>
+        <set attributeName="opacity" to="0" begin="43.26s"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </g>
+    </g>
+    <g transform="translate(40,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.18s"/>
+        <set attributeName="opacity" to="0.9" begin="12.18s"/>
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="1.0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="12.18s"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </g>
+    </g>
+    <g transform="translate(66,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="24.78s"/>
+        <set attributeName="opacity" to="0.9" begin="24.78s"/>
+        <set attributeName="opacity" to="0" begin="26.04s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="24.78s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+        <set attributeName="opacity" to="0" begin="26.04s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+        <set attributeName="opacity" to="0" begin="26.04s"/>
+      </g>
+    </g>
+    <g transform="translate(92,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="24.78s"/>
+        <set attributeName="opacity" to="0.9" begin="24.78s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="1.0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="24.78s"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="24.78s"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </g>
+    </g>
+    <g transform="translate(118,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="36.96s"/>
+        <set attributeName="opacity" to="0.9" begin="36.96s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="36.96s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </g>
+    </g>
+    <g transform="translate(144,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="36.96s"/>
+        <set attributeName="opacity" to="0.9" begin="36.96s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="1.0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="36.96s"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="36.96s"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </g>
+    </g>
+    <g transform="translate(170,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="5.46s"/>
+        <set attributeName="opacity" to="0.9" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="31.50s"/>
+        <set attributeName="opacity" to="0.9" begin="31.50s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="31.50s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </g>
+    </g>
+    <g transform="translate(196,368)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="5.46s"/>
+        <set attributeName="opacity" to="0.9" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="18.48s"/>
+        <set attributeName="opacity" to="0.9" begin="18.48s"/>
+        <set attributeName="fill" to="#e8c275" begin="18.90s"/>
+        <set attributeName="opacity" to="0.9" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+        <set attributeName="fill" to="#e8c275" begin="31.50s"/>
+        <set attributeName="opacity" to="0.9" begin="31.50s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="fill" to="#e8c275" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+        <set attributeName="fill" to="#e8c275" begin="31.50s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="5.46s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="18.48s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+        <set attributeName="opacity" to="0" begin="31.50s"/>
+      </g>
+    </g>
+    <g transform="translate(14,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="43.68s"/>
+        <set attributeName="opacity" to="0.9" begin="43.68s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="44.10s"/>
+        <set attributeName="opacity" to="0.9" begin="44.10s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="43.68s"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="44.10s"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="43.68s"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </g>
+    </g>
+    <g transform="translate(40,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="1.0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e8c275" opacity="0.9">
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </g>
+    </g>
+    <g transform="translate(66,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+      </g>
+    </g>
+    <g transform="translate(92,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="1.0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#9fd9e8" opacity="0.9">
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </g>
+    </g>
+    <g transform="translate(118,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+      </g>
+    </g>
+    <g transform="translate(144,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="1.0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#b6d9bf" opacity="0.9">
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </g>
+    </g>
+    <g transform="translate(170,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="5.88s"/>
+        <set attributeName="opacity" to="0.9" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+      </g>
+    </g>
+    <g transform="translate(196,394)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="5.88s"/>
+        <set attributeName="opacity" to="0.9" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="18.90s"/>
+        <set attributeName="opacity" to="0.9" begin="18.90s"/>
+        <set attributeName="fill" to="#e8c275" begin="19.32s"/>
+        <set attributeName="opacity" to="0.9" begin="19.32s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="fill" to="#e8c275" begin="19.32s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="5.88s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="18.90s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+      </g>
+    </g>
+    <g transform="translate(14,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="44.10s"/>
+        <set attributeName="opacity" to="0.9" begin="44.10s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="44.10s"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="44.10s"/>
+      </g>
+    </g>
+    <g transform="translate(40,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="1.0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e8c275" opacity="0.9">
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </g>
+    </g>
+    <g transform="translate(66,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+      </g>
+    </g>
+    <g transform="translate(92,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="1.0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#9fd9e8" opacity="0.9">
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </g>
+    </g>
+    <g transform="translate(118,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+      </g>
+    </g>
+    <g transform="translate(144,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="1.0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#b6d9bf" opacity="0.9">
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </g>
+    </g>
+    <g transform="translate(170,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="6.30s"/>
+        <set attributeName="opacity" to="0.9" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="38.22s"/>
+        <set attributeName="opacity" to="0.9" begin="38.22s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+        <set attributeName="fill" to="#9fd9e8" begin="38.22s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </g>
+    </g>
+    <g transform="translate(196,420)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="6.30s"/>
+        <set attributeName="opacity" to="0.9" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="19.32s"/>
+        <set attributeName="opacity" to="0.9" begin="19.32s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+        <set attributeName="fill" to="#b6d9bf" begin="19.32s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="6.30s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+        <set attributeName="opacity" to="0" begin="19.32s"/>
+      </g>
+    </g>
+    <g transform="translate(14,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="13.44s"/>
+        <set attributeName="opacity" to="0.9" begin="13.44s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="13.44s"/>
+        <set attributeName="opacity" to="0" begin="13.44s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="13.44s"/>
+      </g>
+    </g>
+    <g transform="translate(40,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="1.0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e8c275" opacity="0.9">
+        <set attributeName="fill" to="#e8c275" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="12.60s"/>
+        <set attributeName="opacity" to="0" begin="13.02s"/>
+      </g>
+    </g>
+    <g transform="translate(66,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="26.04s"/>
+        <set attributeName="opacity" to="0.9" begin="26.04s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#e8c275" begin="26.04s"/>
+        <set attributeName="opacity" to="0" begin="26.04s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="26.04s"/>
+      </g>
+    </g>
+    <g transform="translate(92,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="1.0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#9fd9e8" opacity="0.9">
+        <set attributeName="fill" to="#9fd9e8" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="25.20s"/>
+        <set attributeName="opacity" to="0" begin="25.62s"/>
+      </g>
+    </g>
+    <g transform="translate(118,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="38.22s"/>
+        <set attributeName="opacity" to="0.9" begin="38.22s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="38.22s"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="38.22s"/>
+      </g>
+    </g>
+    <g transform="translate(144,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="1.0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#b6d9bf" opacity="0.9">
+        <set attributeName="fill" to="#b6d9bf" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </circle>
+      <g opacity="1">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="37.38s"/>
+        <set attributeName="opacity" to="0" begin="37.80s"/>
+      </g>
+    </g>
+    <g transform="translate(170,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="6.72s"/>
+        <set attributeName="opacity" to="0.9" begin="6.72s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#9fd9e8" begin="6.72s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+      </g>
+    </g>
+    <g transform="translate(196,446)">
+      <rect x="2" y="2" width="22" height="22" rx="6" ry="6" fill="#e8c275" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="6.72s"/>
+        <set attributeName="opacity" to="0.9" begin="6.72s"/>
+      </rect>
+      <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
+        <set attributeName="fill" to="#b6d9bf" begin="6.72s"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+      </circle>
+      <g opacity="0">
+        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <set attributeName="opacity" to="0" begin="6.72s"/>
+      </g>
+    </g>
+  </g>
+  <text x="246" y="148" font-family="ui-monospace,SF Mono,Menlo,monospace" font-size="20" fill="#e08abf" font-weight="500">
+    <tspan>09</tspan>
+  </text>
+  <g font-family="ui-monospace,SF Mono,Menlo,monospace" font-size="20" fill="#e08abf" font-weight="500">
+    <text x="246" y="148" opacity="0"><animate attributeName="opacity" to="1" begin="0.00s" fill="freeze" dur="0.01s"/><animate attributeName="opacity" to="0" begin="12.60s" fill="freeze" dur="0.01s"/>09</text>
+    <text x="246" y="148" opacity="0"><animate attributeName="opacity" to="1" begin="12.60s" fill="freeze" dur="0.01s"/><animate attributeName="opacity" to="0" begin="25.20s" fill="freeze" dur="0.01s"/>06</text>
+    <text x="246" y="148" opacity="0"><animate attributeName="opacity" to="1" begin="25.20s" fill="freeze" dur="0.01s"/><animate attributeName="opacity" to="0" begin="37.38s" fill="freeze" dur="0.01s"/>03</text>
+    <text x="246" y="148" opacity="0"><animate attributeName="opacity" to="1" begin="37.38s" fill="freeze" dur="0.01s"/><animate attributeName="opacity" to="0" begin="48.00s" fill="freeze" dur="0.01s"/>00</text>
+    <rect x="244" y="130" width="38" height="22" fill="url(#bg)"/>
+  </g>
+</svg>
