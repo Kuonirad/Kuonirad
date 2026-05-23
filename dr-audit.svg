@@ -80,6 +80,18 @@
     <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
   </circle>
 
+  <!-- PLAY CTA badge (visual; the markdown badge below the SVG is the actual clickable) -->
+  <g transform="translate(242,386)">
+    <rect x="0" y="0" width="170" height="48" rx="24" ry="24" fill="#e8c275" opacity="0.92">
+      <animate attributeName="opacity" values="0.92;1;0.92" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="170" height="48" rx="24" ry="24" fill="none" stroke="#f3eee3" stroke-opacity="0.18"/>
+    <polygon points="20,16 20,32 34,24" fill="#0d0d12"/>
+    <text x="48" y="22" font-family="ui-monospace,SF Mono,Menlo,monospace" font-size="13" font-weight="500" fill="#0d0d12" letter-spacing="0.18em">PLAY</text>
+    <text x="48" y="36" font-family="ui-monospace,SF Mono,Menlo,monospace" font-size="9" fill="#0d0d12" fill-opacity="0.65" letter-spacing="0.18em">DR. AUDIT</text>
+    <text x="160" y="29" text-anchor="end" font-family="ui-monospace,SF Mono,Menlo,monospace" font-size="14" fill="#0d0d12" fill-opacity="0.7">&#x2192;</text>
+  </g>
+
   <!-- cells -->
   <g>
     <g transform="translate(14,56)">
@@ -100,12 +112,18 @@
         <set attributeName="opacity" to="0" begin="39.06s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="7.14s"/>
         <set attributeName="opacity" to="0" begin="7.56s"/>
         <set attributeName="opacity" to="0" begin="38.64s"/>
         <set attributeName="opacity" to="0" begin="39.06s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,56)">
@@ -120,10 +138,16 @@
         <set attributeName="opacity" to="0" begin="7.56s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="7.14s"/>
         <set attributeName="opacity" to="0" begin="7.56s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,56)">
@@ -138,10 +162,16 @@
         <set attributeName="opacity" to="0" begin="20.16s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="19.74s"/>
         <set attributeName="opacity" to="0" begin="20.16s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,56)">
@@ -156,10 +186,16 @@
         <set attributeName="opacity" to="0" begin="20.16s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="19.74s"/>
         <set attributeName="opacity" to="0" begin="20.16s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,56)">
@@ -174,10 +210,16 @@
         <set attributeName="opacity" to="0" begin="32.34s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="31.92s"/>
         <set attributeName="opacity" to="0" begin="32.34s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,56)">
@@ -192,10 +234,16 @@
         <set attributeName="opacity" to="0" begin="32.34s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="31.92s"/>
         <set attributeName="opacity" to="0" begin="32.34s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,56)">
@@ -216,12 +264,18 @@
         <set attributeName="opacity" to="0" begin="26.88s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="0.42s"/>
         <set attributeName="opacity" to="0" begin="0.84s"/>
         <set attributeName="opacity" to="0" begin="26.46s"/>
         <set attributeName="opacity" to="0" begin="26.88s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,56)">
@@ -248,14 +302,20 @@
         <set attributeName="opacity" to="0" begin="26.88s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="0.42s"/>
         <set attributeName="opacity" to="0" begin="0.84s"/>
         <set attributeName="opacity" to="0" begin="13.86s"/>
         <set attributeName="opacity" to="0" begin="14.28s"/>
         <set attributeName="opacity" to="0" begin="26.46s"/>
         <set attributeName="opacity" to="0" begin="26.88s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,82)">
@@ -280,13 +340,19 @@
         <set attributeName="opacity" to="0" begin="39.48s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="7.56s"/>
         <set attributeName="opacity" to="0" begin="7.98s"/>
         <set attributeName="opacity" to="0" begin="38.64s"/>
         <set attributeName="opacity" to="0" begin="39.06s"/>
         <set attributeName="opacity" to="0" begin="39.48s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,82)">
@@ -301,10 +367,16 @@
         <set attributeName="opacity" to="0" begin="7.98s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="7.56s"/>
         <set attributeName="opacity" to="0" begin="7.98s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,82)">
@@ -319,10 +391,16 @@
         <set attributeName="opacity" to="0" begin="20.58s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="20.16s"/>
         <set attributeName="opacity" to="0" begin="20.58s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,82)">
@@ -337,10 +415,16 @@
         <set attributeName="opacity" to="0" begin="20.58s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="20.16s"/>
         <set attributeName="opacity" to="0" begin="20.58s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,82)">
@@ -355,10 +439,16 @@
         <set attributeName="opacity" to="0" begin="32.76s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="32.34s"/>
         <set attributeName="opacity" to="0" begin="32.76s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,82)">
@@ -373,10 +463,16 @@
         <set attributeName="opacity" to="0" begin="32.76s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="32.34s"/>
         <set attributeName="opacity" to="0" begin="32.76s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,82)">
@@ -397,12 +493,18 @@
         <set attributeName="opacity" to="0" begin="27.30s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="0.84s"/>
         <set attributeName="opacity" to="0" begin="1.26s"/>
         <set attributeName="opacity" to="0" begin="26.88s"/>
         <set attributeName="opacity" to="0" begin="27.30s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,82)">
@@ -433,8 +535,6 @@
         <set attributeName="opacity" to="0" begin="27.30s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="0.84s"/>
         <set attributeName="opacity" to="0" begin="1.26s"/>
         <set attributeName="opacity" to="0" begin="13.86s"/>
@@ -442,6 +542,14 @@
         <set attributeName="opacity" to="0" begin="14.70s"/>
         <set attributeName="opacity" to="0" begin="26.88s"/>
         <set attributeName="opacity" to="0" begin="27.30s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,108)">
@@ -466,13 +574,19 @@
         <set attributeName="opacity" to="0" begin="39.90s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="7.98s"/>
         <set attributeName="opacity" to="0" begin="8.40s"/>
         <set attributeName="opacity" to="0" begin="39.06s"/>
         <set attributeName="opacity" to="0" begin="39.48s"/>
         <set attributeName="opacity" to="0" begin="39.90s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,108)">
@@ -487,10 +601,16 @@
         <set attributeName="opacity" to="0" begin="8.40s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="7.98s"/>
         <set attributeName="opacity" to="0" begin="8.40s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,108)">
@@ -505,10 +625,16 @@
         <set attributeName="opacity" to="0" begin="21.00s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="20.58s"/>
         <set attributeName="opacity" to="0" begin="21.00s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,108)">
@@ -523,10 +649,16 @@
         <set attributeName="opacity" to="0" begin="21.00s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="20.58s"/>
         <set attributeName="opacity" to="0" begin="21.00s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,108)">
@@ -541,10 +673,16 @@
         <set attributeName="opacity" to="0" begin="33.18s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="32.76s"/>
         <set attributeName="opacity" to="0" begin="33.18s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,108)">
@@ -559,10 +697,16 @@
         <set attributeName="opacity" to="0" begin="33.18s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="32.76s"/>
         <set attributeName="opacity" to="0" begin="33.18s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,108)">
@@ -583,12 +727,18 @@
         <set attributeName="opacity" to="0" begin="27.72s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="1.26s"/>
         <set attributeName="opacity" to="0" begin="1.68s"/>
         <set attributeName="opacity" to="0" begin="27.30s"/>
         <set attributeName="opacity" to="0" begin="27.72s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,108)">
@@ -619,8 +769,6 @@
         <set attributeName="opacity" to="0" begin="27.72s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="1.26s"/>
         <set attributeName="opacity" to="0" begin="1.68s"/>
         <set attributeName="opacity" to="0" begin="14.28s"/>
@@ -628,6 +776,14 @@
         <set attributeName="opacity" to="0" begin="15.12s"/>
         <set attributeName="opacity" to="0" begin="27.30s"/>
         <set attributeName="opacity" to="0" begin="27.72s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,134)">
@@ -652,13 +808,19 @@
         <set attributeName="opacity" to="0" begin="40.32s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="8.40s"/>
         <set attributeName="opacity" to="0" begin="8.82s"/>
         <set attributeName="opacity" to="0" begin="39.48s"/>
         <set attributeName="opacity" to="0" begin="39.90s"/>
         <set attributeName="opacity" to="0" begin="40.32s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,134)">
@@ -673,10 +835,16 @@
         <set attributeName="opacity" to="0" begin="8.82s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="8.40s"/>
         <set attributeName="opacity" to="0" begin="8.82s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,134)">
@@ -691,10 +859,16 @@
         <set attributeName="opacity" to="0" begin="21.42s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="21.00s"/>
         <set attributeName="opacity" to="0" begin="21.42s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,134)">
@@ -709,10 +883,16 @@
         <set attributeName="opacity" to="0" begin="21.42s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="21.00s"/>
         <set attributeName="opacity" to="0" begin="21.42s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,134)">
@@ -727,10 +907,16 @@
         <set attributeName="opacity" to="0" begin="33.60s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="33.18s"/>
         <set attributeName="opacity" to="0" begin="33.60s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,134)">
@@ -745,10 +931,16 @@
         <set attributeName="opacity" to="0" begin="33.60s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="33.18s"/>
         <set attributeName="opacity" to="0" begin="33.60s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,134)">
@@ -769,12 +961,18 @@
         <set attributeName="opacity" to="0" begin="28.14s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="1.68s"/>
         <set attributeName="opacity" to="0" begin="2.10s"/>
         <set attributeName="opacity" to="0" begin="27.72s"/>
         <set attributeName="opacity" to="0" begin="28.14s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,134)">
@@ -805,8 +1003,6 @@
         <set attributeName="opacity" to="0" begin="28.14s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="1.68s"/>
         <set attributeName="opacity" to="0" begin="2.10s"/>
         <set attributeName="opacity" to="0" begin="14.70s"/>
@@ -814,6 +1010,14 @@
         <set attributeName="opacity" to="0" begin="15.54s"/>
         <set attributeName="opacity" to="0" begin="27.72s"/>
         <set attributeName="opacity" to="0" begin="28.14s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,160)">
@@ -838,13 +1042,19 @@
         <set attributeName="opacity" to="0" begin="40.74s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="8.82s"/>
         <set attributeName="opacity" to="0" begin="9.24s"/>
         <set attributeName="opacity" to="0" begin="39.90s"/>
         <set attributeName="opacity" to="0" begin="40.32s"/>
         <set attributeName="opacity" to="0" begin="40.74s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,160)">
@@ -859,10 +1069,16 @@
         <set attributeName="opacity" to="0" begin="9.24s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="8.82s"/>
         <set attributeName="opacity" to="0" begin="9.24s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,160)">
@@ -877,10 +1093,16 @@
         <set attributeName="opacity" to="0" begin="21.84s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="21.42s"/>
         <set attributeName="opacity" to="0" begin="21.84s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,160)">
@@ -895,10 +1117,16 @@
         <set attributeName="opacity" to="0" begin="21.84s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="21.42s"/>
         <set attributeName="opacity" to="0" begin="21.84s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,160)">
@@ -913,10 +1141,16 @@
         <set attributeName="opacity" to="0" begin="34.02s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="33.60s"/>
         <set attributeName="opacity" to="0" begin="34.02s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,160)">
@@ -931,10 +1165,16 @@
         <set attributeName="opacity" to="0" begin="34.02s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="33.60s"/>
         <set attributeName="opacity" to="0" begin="34.02s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,160)">
@@ -955,12 +1195,18 @@
         <set attributeName="opacity" to="0" begin="28.56s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="2.10s"/>
         <set attributeName="opacity" to="0" begin="2.52s"/>
         <set attributeName="opacity" to="0" begin="28.14s"/>
         <set attributeName="opacity" to="0" begin="28.56s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,160)">
@@ -991,8 +1237,6 @@
         <set attributeName="opacity" to="0" begin="28.56s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="2.10s"/>
         <set attributeName="opacity" to="0" begin="2.52s"/>
         <set attributeName="opacity" to="0" begin="15.12s"/>
@@ -1000,6 +1244,14 @@
         <set attributeName="opacity" to="0" begin="15.96s"/>
         <set attributeName="opacity" to="0" begin="28.14s"/>
         <set attributeName="opacity" to="0" begin="28.56s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,186)">
@@ -1024,13 +1276,19 @@
         <set attributeName="opacity" to="0" begin="41.16s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="9.24s"/>
         <set attributeName="opacity" to="0" begin="9.66s"/>
         <set attributeName="opacity" to="0" begin="40.32s"/>
         <set attributeName="opacity" to="0" begin="40.74s"/>
         <set attributeName="opacity" to="0" begin="41.16s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,186)">
@@ -1045,10 +1303,16 @@
         <set attributeName="opacity" to="0" begin="9.66s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="9.24s"/>
         <set attributeName="opacity" to="0" begin="9.66s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,186)">
@@ -1063,10 +1327,16 @@
         <set attributeName="opacity" to="0" begin="22.26s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="21.84s"/>
         <set attributeName="opacity" to="0" begin="22.26s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,186)">
@@ -1081,10 +1351,16 @@
         <set attributeName="opacity" to="0" begin="22.26s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="21.84s"/>
         <set attributeName="opacity" to="0" begin="22.26s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,186)">
@@ -1099,10 +1375,16 @@
         <set attributeName="opacity" to="0" begin="34.44s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="34.02s"/>
         <set attributeName="opacity" to="0" begin="34.44s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,186)">
@@ -1117,10 +1399,16 @@
         <set attributeName="opacity" to="0" begin="34.44s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="34.02s"/>
         <set attributeName="opacity" to="0" begin="34.44s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,186)">
@@ -1141,12 +1429,18 @@
         <set attributeName="opacity" to="0" begin="28.98s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="2.52s"/>
         <set attributeName="opacity" to="0" begin="2.94s"/>
         <set attributeName="opacity" to="0" begin="28.56s"/>
         <set attributeName="opacity" to="0" begin="28.98s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,186)">
@@ -1177,8 +1471,6 @@
         <set attributeName="opacity" to="0" begin="28.98s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="2.52s"/>
         <set attributeName="opacity" to="0" begin="2.94s"/>
         <set attributeName="opacity" to="0" begin="15.54s"/>
@@ -1186,6 +1478,14 @@
         <set attributeName="opacity" to="0" begin="16.38s"/>
         <set attributeName="opacity" to="0" begin="28.56s"/>
         <set attributeName="opacity" to="0" begin="28.98s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,212)">
@@ -1210,13 +1510,19 @@
         <set attributeName="opacity" to="0" begin="41.58s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="9.66s"/>
         <set attributeName="opacity" to="0" begin="10.08s"/>
         <set attributeName="opacity" to="0" begin="40.74s"/>
         <set attributeName="opacity" to="0" begin="41.16s"/>
         <set attributeName="opacity" to="0" begin="41.58s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,212)">
@@ -1231,10 +1537,16 @@
         <set attributeName="opacity" to="0" begin="10.08s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="9.66s"/>
         <set attributeName="opacity" to="0" begin="10.08s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,212)">
@@ -1249,10 +1561,16 @@
         <set attributeName="opacity" to="0" begin="22.68s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="22.26s"/>
         <set attributeName="opacity" to="0" begin="22.68s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,212)">
@@ -1267,10 +1585,16 @@
         <set attributeName="opacity" to="0" begin="22.68s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="22.26s"/>
         <set attributeName="opacity" to="0" begin="22.68s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,212)">
@@ -1285,10 +1609,16 @@
         <set attributeName="opacity" to="0" begin="34.86s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="34.44s"/>
         <set attributeName="opacity" to="0" begin="34.86s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,212)">
@@ -1303,10 +1633,16 @@
         <set attributeName="opacity" to="0" begin="34.86s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="34.44s"/>
         <set attributeName="opacity" to="0" begin="34.86s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,212)">
@@ -1327,12 +1663,18 @@
         <set attributeName="opacity" to="0" begin="29.40s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="2.94s"/>
         <set attributeName="opacity" to="0" begin="3.36s"/>
         <set attributeName="opacity" to="0" begin="28.98s"/>
         <set attributeName="opacity" to="0" begin="29.40s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,212)">
@@ -1363,8 +1705,6 @@
         <set attributeName="opacity" to="0" begin="29.40s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="2.94s"/>
         <set attributeName="opacity" to="0" begin="3.36s"/>
         <set attributeName="opacity" to="0" begin="15.96s"/>
@@ -1372,6 +1712,14 @@
         <set attributeName="opacity" to="0" begin="16.80s"/>
         <set attributeName="opacity" to="0" begin="28.98s"/>
         <set attributeName="opacity" to="0" begin="29.40s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,238)">
@@ -1396,13 +1744,19 @@
         <set attributeName="opacity" to="0" begin="42.00s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="10.08s"/>
         <set attributeName="opacity" to="0" begin="10.50s"/>
         <set attributeName="opacity" to="0" begin="41.16s"/>
         <set attributeName="opacity" to="0" begin="41.58s"/>
         <set attributeName="opacity" to="0" begin="42.00s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,238)">
@@ -1417,10 +1771,16 @@
         <set attributeName="opacity" to="0" begin="10.50s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="10.08s"/>
         <set attributeName="opacity" to="0" begin="10.50s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,238)">
@@ -1435,10 +1795,16 @@
         <set attributeName="opacity" to="0" begin="23.10s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="22.68s"/>
         <set attributeName="opacity" to="0" begin="23.10s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,238)">
@@ -1453,10 +1819,16 @@
         <set attributeName="opacity" to="0" begin="23.10s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="22.68s"/>
         <set attributeName="opacity" to="0" begin="23.10s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,238)">
@@ -1471,10 +1843,16 @@
         <set attributeName="opacity" to="0" begin="35.28s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="34.86s"/>
         <set attributeName="opacity" to="0" begin="35.28s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,238)">
@@ -1489,10 +1867,16 @@
         <set attributeName="opacity" to="0" begin="35.28s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="34.86s"/>
         <set attributeName="opacity" to="0" begin="35.28s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,238)">
@@ -1513,12 +1897,18 @@
         <set attributeName="opacity" to="0" begin="29.82s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="3.36s"/>
         <set attributeName="opacity" to="0" begin="3.78s"/>
         <set attributeName="opacity" to="0" begin="29.40s"/>
         <set attributeName="opacity" to="0" begin="29.82s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,238)">
@@ -1549,8 +1939,6 @@
         <set attributeName="opacity" to="0" begin="29.82s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="3.36s"/>
         <set attributeName="opacity" to="0" begin="3.78s"/>
         <set attributeName="opacity" to="0" begin="16.38s"/>
@@ -1558,6 +1946,14 @@
         <set attributeName="opacity" to="0" begin="17.22s"/>
         <set attributeName="opacity" to="0" begin="29.40s"/>
         <set attributeName="opacity" to="0" begin="29.82s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,264)">
@@ -1582,13 +1978,19 @@
         <set attributeName="opacity" to="0" begin="42.42s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="10.50s"/>
         <set attributeName="opacity" to="0" begin="10.92s"/>
         <set attributeName="opacity" to="0" begin="41.58s"/>
         <set attributeName="opacity" to="0" begin="42.00s"/>
         <set attributeName="opacity" to="0" begin="42.42s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,264)">
@@ -1603,10 +2005,16 @@
         <set attributeName="opacity" to="0" begin="10.92s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="10.50s"/>
         <set attributeName="opacity" to="0" begin="10.92s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,264)">
@@ -1621,10 +2029,16 @@
         <set attributeName="opacity" to="0" begin="23.52s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="23.10s"/>
         <set attributeName="opacity" to="0" begin="23.52s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,264)">
@@ -1639,10 +2053,16 @@
         <set attributeName="opacity" to="0" begin="23.52s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="23.10s"/>
         <set attributeName="opacity" to="0" begin="23.52s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,264)">
@@ -1657,10 +2077,16 @@
         <set attributeName="opacity" to="0" begin="35.70s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="35.28s"/>
         <set attributeName="opacity" to="0" begin="35.70s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,264)">
@@ -1675,10 +2101,16 @@
         <set attributeName="opacity" to="0" begin="35.70s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="35.28s"/>
         <set attributeName="opacity" to="0" begin="35.70s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,264)">
@@ -1699,12 +2131,18 @@
         <set attributeName="opacity" to="0" begin="30.24s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="3.78s"/>
         <set attributeName="opacity" to="0" begin="4.20s"/>
         <set attributeName="opacity" to="0" begin="29.82s"/>
         <set attributeName="opacity" to="0" begin="30.24s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,264)">
@@ -1735,8 +2173,6 @@
         <set attributeName="opacity" to="0" begin="30.24s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="3.78s"/>
         <set attributeName="opacity" to="0" begin="4.20s"/>
         <set attributeName="opacity" to="0" begin="16.80s"/>
@@ -1744,6 +2180,14 @@
         <set attributeName="opacity" to="0" begin="17.64s"/>
         <set attributeName="opacity" to="0" begin="29.82s"/>
         <set attributeName="opacity" to="0" begin="30.24s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,290)">
@@ -1768,13 +2212,19 @@
         <set attributeName="opacity" to="0" begin="42.84s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="10.92s"/>
         <set attributeName="opacity" to="0" begin="11.34s"/>
         <set attributeName="opacity" to="0" begin="42.00s"/>
         <set attributeName="opacity" to="0" begin="42.42s"/>
         <set attributeName="opacity" to="0" begin="42.84s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,290)">
@@ -1789,10 +2239,16 @@
         <set attributeName="opacity" to="0" begin="11.34s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="10.92s"/>
         <set attributeName="opacity" to="0" begin="11.34s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,290)">
@@ -1807,10 +2263,16 @@
         <set attributeName="opacity" to="0" begin="23.94s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="23.52s"/>
         <set attributeName="opacity" to="0" begin="23.94s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,290)">
@@ -1825,10 +2287,16 @@
         <set attributeName="opacity" to="0" begin="23.94s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="23.52s"/>
         <set attributeName="opacity" to="0" begin="23.94s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,290)">
@@ -1843,10 +2311,16 @@
         <set attributeName="opacity" to="0" begin="36.12s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="35.70s"/>
         <set attributeName="opacity" to="0" begin="36.12s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,290)">
@@ -1861,10 +2335,16 @@
         <set attributeName="opacity" to="0" begin="36.12s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="35.70s"/>
         <set attributeName="opacity" to="0" begin="36.12s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,290)">
@@ -1885,12 +2365,18 @@
         <set attributeName="opacity" to="0" begin="30.66s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="4.20s"/>
         <set attributeName="opacity" to="0" begin="4.62s"/>
         <set attributeName="opacity" to="0" begin="30.24s"/>
         <set attributeName="opacity" to="0" begin="30.66s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,290)">
@@ -1921,8 +2407,6 @@
         <set attributeName="opacity" to="0" begin="30.66s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="4.20s"/>
         <set attributeName="opacity" to="0" begin="4.62s"/>
         <set attributeName="opacity" to="0" begin="17.22s"/>
@@ -1930,6 +2414,14 @@
         <set attributeName="opacity" to="0" begin="18.06s"/>
         <set attributeName="opacity" to="0" begin="30.24s"/>
         <set attributeName="opacity" to="0" begin="30.66s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,316)">
@@ -1954,13 +2446,19 @@
         <set attributeName="opacity" to="0" begin="43.26s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="11.34s"/>
         <set attributeName="opacity" to="0" begin="11.76s"/>
         <set attributeName="opacity" to="0" begin="42.42s"/>
         <set attributeName="opacity" to="0" begin="42.84s"/>
         <set attributeName="opacity" to="0" begin="43.26s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,316)">
@@ -1975,10 +2473,16 @@
         <set attributeName="opacity" to="0" begin="11.76s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="11.34s"/>
         <set attributeName="opacity" to="0" begin="11.76s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,316)">
@@ -1993,10 +2497,16 @@
         <set attributeName="opacity" to="0" begin="24.36s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="23.94s"/>
         <set attributeName="opacity" to="0" begin="24.36s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,316)">
@@ -2011,10 +2521,16 @@
         <set attributeName="opacity" to="0" begin="24.36s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="23.94s"/>
         <set attributeName="opacity" to="0" begin="24.36s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,316)">
@@ -2029,10 +2545,16 @@
         <set attributeName="opacity" to="0" begin="36.54s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="36.12s"/>
         <set attributeName="opacity" to="0" begin="36.54s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,316)">
@@ -2047,10 +2569,16 @@
         <set attributeName="opacity" to="0" begin="36.54s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="36.12s"/>
         <set attributeName="opacity" to="0" begin="36.54s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,316)">
@@ -2071,12 +2599,18 @@
         <set attributeName="opacity" to="0" begin="31.08s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="4.62s"/>
         <set attributeName="opacity" to="0" begin="5.04s"/>
         <set attributeName="opacity" to="0" begin="30.66s"/>
         <set attributeName="opacity" to="0" begin="31.08s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,316)">
@@ -2107,8 +2641,6 @@
         <set attributeName="opacity" to="0" begin="31.08s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="4.62s"/>
         <set attributeName="opacity" to="0" begin="5.04s"/>
         <set attributeName="opacity" to="0" begin="17.64s"/>
@@ -2116,6 +2648,14 @@
         <set attributeName="opacity" to="0" begin="18.48s"/>
         <set attributeName="opacity" to="0" begin="30.66s"/>
         <set attributeName="opacity" to="0" begin="31.08s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,342)">
@@ -2140,13 +2680,19 @@
         <set attributeName="opacity" to="0" begin="43.68s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="11.76s"/>
         <set attributeName="opacity" to="0" begin="12.18s"/>
         <set attributeName="opacity" to="0" begin="42.84s"/>
         <set attributeName="opacity" to="0" begin="43.26s"/>
         <set attributeName="opacity" to="0" begin="43.68s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,342)">
@@ -2161,10 +2707,16 @@
         <set attributeName="opacity" to="0" begin="12.18s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="11.76s"/>
         <set attributeName="opacity" to="0" begin="12.18s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,342)">
@@ -2179,10 +2731,16 @@
         <set attributeName="opacity" to="0" begin="24.78s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="24.36s"/>
         <set attributeName="opacity" to="0" begin="24.78s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,342)">
@@ -2197,10 +2755,16 @@
         <set attributeName="opacity" to="0" begin="24.78s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="24.36s"/>
         <set attributeName="opacity" to="0" begin="24.78s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,342)">
@@ -2215,10 +2779,16 @@
         <set attributeName="opacity" to="0" begin="36.96s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="36.54s"/>
         <set attributeName="opacity" to="0" begin="36.96s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,342)">
@@ -2233,10 +2803,16 @@
         <set attributeName="opacity" to="0" begin="36.96s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="36.54s"/>
         <set attributeName="opacity" to="0" begin="36.96s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,342)">
@@ -2257,12 +2833,18 @@
         <set attributeName="opacity" to="0" begin="31.50s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="5.04s"/>
         <set attributeName="opacity" to="0" begin="5.46s"/>
         <set attributeName="opacity" to="0" begin="31.08s"/>
         <set attributeName="opacity" to="0" begin="31.50s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,342)">
@@ -2293,8 +2875,6 @@
         <set attributeName="opacity" to="0" begin="31.50s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="5.04s"/>
         <set attributeName="opacity" to="0" begin="5.46s"/>
         <set attributeName="opacity" to="0" begin="18.06s"/>
@@ -2302,6 +2882,14 @@
         <set attributeName="opacity" to="0" begin="18.90s"/>
         <set attributeName="opacity" to="0" begin="31.08s"/>
         <set attributeName="opacity" to="0" begin="31.50s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,368)">
@@ -2326,13 +2914,19 @@
         <set attributeName="opacity" to="0" begin="44.10s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="12.18s"/>
         <set attributeName="opacity" to="0" begin="13.44s"/>
         <set attributeName="opacity" to="0" begin="43.26s"/>
         <set attributeName="opacity" to="0" begin="43.68s"/>
         <set attributeName="opacity" to="0" begin="44.10s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,368)">
@@ -2351,11 +2945,17 @@
         <set attributeName="opacity" to="0" begin="13.02s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="12.18s"/>
         <set attributeName="opacity" to="0" begin="12.60s"/>
         <set attributeName="opacity" to="0" begin="13.02s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,368)">
@@ -2370,10 +2970,16 @@
         <set attributeName="opacity" to="0" begin="26.04s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="24.78s"/>
         <set attributeName="opacity" to="0" begin="26.04s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,368)">
@@ -2392,11 +2998,17 @@
         <set attributeName="opacity" to="0" begin="25.62s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="24.78s"/>
         <set attributeName="opacity" to="0" begin="25.20s"/>
         <set attributeName="opacity" to="0" begin="25.62s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,368)">
@@ -2411,10 +3023,16 @@
         <set attributeName="opacity" to="0" begin="38.22s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="36.96s"/>
         <set attributeName="opacity" to="0" begin="38.22s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,368)">
@@ -2433,11 +3051,17 @@
         <set attributeName="opacity" to="0" begin="37.80s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="36.96s"/>
         <set attributeName="opacity" to="0" begin="37.38s"/>
         <set attributeName="opacity" to="0" begin="37.80s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,368)">
@@ -2458,12 +3082,18 @@
         <set attributeName="opacity" to="0" begin="38.22s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="5.46s"/>
         <set attributeName="opacity" to="0" begin="5.88s"/>
         <set attributeName="opacity" to="0" begin="31.50s"/>
         <set attributeName="opacity" to="0" begin="38.22s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,368)">
@@ -2492,14 +3122,20 @@
         <set attributeName="opacity" to="0" begin="31.50s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="5.46s"/>
         <set attributeName="opacity" to="0" begin="5.88s"/>
         <set attributeName="opacity" to="0" begin="18.48s"/>
         <set attributeName="opacity" to="0" begin="18.90s"/>
         <set attributeName="opacity" to="0" begin="19.32s"/>
         <set attributeName="opacity" to="0" begin="31.50s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,394)">
@@ -2516,10 +3152,16 @@
         <set attributeName="opacity" to="0" begin="44.10s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="43.68s"/>
         <set attributeName="opacity" to="0" begin="44.10s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,394)">
@@ -2534,10 +3176,16 @@
         <set attributeName="opacity" to="0" begin="13.02s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="12.60s"/>
         <set attributeName="opacity" to="0" begin="13.02s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,394)">
@@ -2546,8 +3194,14 @@
       <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,394)">
@@ -2562,10 +3216,16 @@
         <set attributeName="opacity" to="0" begin="25.62s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="25.20s"/>
         <set attributeName="opacity" to="0" begin="25.62s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,394)">
@@ -2574,8 +3234,14 @@
       <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,394)">
@@ -2590,10 +3256,16 @@
         <set attributeName="opacity" to="0" begin="37.80s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="37.38s"/>
         <set attributeName="opacity" to="0" begin="37.80s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,394)">
@@ -2608,10 +3280,16 @@
         <set attributeName="opacity" to="0" begin="6.30s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="5.88s"/>
         <set attributeName="opacity" to="0" begin="6.30s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,394)">
@@ -2634,12 +3312,18 @@
         <set attributeName="opacity" to="0" begin="19.32s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="5.88s"/>
         <set attributeName="opacity" to="0" begin="6.30s"/>
         <set attributeName="opacity" to="0" begin="18.90s"/>
         <set attributeName="opacity" to="0" begin="19.32s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,420)">
@@ -2652,9 +3336,15 @@
         <set attributeName="opacity" to="0" begin="44.10s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="44.10s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,420)">
@@ -2669,10 +3359,16 @@
         <set attributeName="opacity" to="0" begin="13.02s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="12.60s"/>
         <set attributeName="opacity" to="0" begin="13.02s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,420)">
@@ -2681,8 +3377,14 @@
       <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,420)">
@@ -2697,10 +3399,16 @@
         <set attributeName="opacity" to="0" begin="25.62s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="25.20s"/>
         <set attributeName="opacity" to="0" begin="25.62s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,420)">
@@ -2709,8 +3417,14 @@
       <circle cx="13.0" cy="13.0" r="10.0" fill="#e08abf" opacity="0">
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,420)">
@@ -2725,10 +3439,16 @@
         <set attributeName="opacity" to="0" begin="37.80s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="37.38s"/>
         <set attributeName="opacity" to="0" begin="37.80s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,420)">
@@ -2747,11 +3467,17 @@
         <set attributeName="opacity" to="0" begin="38.22s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="6.30s"/>
         <set attributeName="opacity" to="0" begin="6.72s"/>
         <set attributeName="opacity" to="0" begin="38.22s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,420)">
@@ -2770,11 +3496,17 @@
         <set attributeName="opacity" to="0" begin="19.32s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="6.30s"/>
         <set attributeName="opacity" to="0" begin="6.72s"/>
         <set attributeName="opacity" to="0" begin="19.32s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(14,446)">
@@ -2787,9 +3519,15 @@
         <set attributeName="opacity" to="0" begin="13.44s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="13.44s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(40,446)">
@@ -2804,10 +3542,16 @@
         <set attributeName="opacity" to="0" begin="13.02s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="12.60s"/>
         <set attributeName="opacity" to="0" begin="13.02s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(66,446)">
@@ -2820,9 +3564,15 @@
         <set attributeName="opacity" to="0" begin="26.04s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="26.04s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(92,446)">
@@ -2837,10 +3587,16 @@
         <set attributeName="opacity" to="0" begin="25.62s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="25.20s"/>
         <set attributeName="opacity" to="0" begin="25.62s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(118,446)">
@@ -2853,9 +3609,15 @@
         <set attributeName="opacity" to="0" begin="38.22s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="38.22s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(144,446)">
@@ -2870,10 +3632,16 @@
         <set attributeName="opacity" to="0" begin="37.80s"/>
       </circle>
       <g opacity="1">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="37.38s"/>
         <set attributeName="opacity" to="0" begin="37.80s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(170,446)">
@@ -2886,9 +3654,15 @@
         <set attributeName="opacity" to="0" begin="6.72s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="6.72s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
     <g transform="translate(196,446)">
@@ -2901,9 +3675,15 @@
         <set attributeName="opacity" to="0" begin="6.72s"/>
       </circle>
       <g opacity="0">
-        <circle cx="9.0" cy="11.0" r="1.4" fill="#0d0d12"/>
-        <circle cx="17.0" cy="11.0" r="1.4" fill="#0d0d12"/>
         <set attributeName="opacity" to="0" begin="6.72s"/>
+        <g transform="translate(13.0,13.0)">
+          <animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="2.3s" repeatCount="indefinite" additive="sum"/>
+          <circle cx="-4" cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="4"  cy="-2" r="2.4" fill="#f3eee3"/>
+          <circle cx="-4" cy="-2" r="1.3" fill="#0d0d12"/>
+          <circle cx="4"  cy="-2" r="1.3" fill="#0d0d12"/>
+          <path d="M -4 4 Q 0 6.5 4 4" stroke="#0d0d12" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </g>
       </g>
     </g>
   </g>

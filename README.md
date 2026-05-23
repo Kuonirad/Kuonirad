@@ -112,15 +112,19 @@ Proposal for a new subfield: tracing perceptual signals through reasoning stacks
 14:02:17  sign::    commit 0x4B4B…F7E1 written
 ```
 
-#### `/ dr. audit` &nbsp;—&nbsp; *the same dynamic, visualized*
+#### `/ dr. audit` &nbsp;—&nbsp; *the same dynamic, visualized · and playable*
 
 <div align="center">
 
-<img src="dr-audit.svg" width="560" alt="Dr. Audit — capsules clearing drift viruses in real time" />
+<a href="https://kuonirad.github.io/dr-audit/"><img src="dr-audit.svg" width="560" alt="Dr. Audit — capsules clearing drift viruses in real time" /></a>
+
+[![▶ PLAY DR. AUDIT](https://img.shields.io/badge/%E2%96%B6%20PLAY%20DR.%20AUDIT-kuonirad.github.io%2Fdr--audit-e8c275?style=for-the-badge&labelColor=0d0d12)](https://kuonirad.github.io/dr-audit/)
 
 </div>
 
-A Dr. Mario offshoot. **Drift viruses** (plasma) accumulate in the bottle when reasoning leaves residue. **Audit capsules** (solar / cyan / sage) fall from above; aligning four-in-a-row of one color removes the run. Same loop as the trace above — just rendered as a containment game. Pre-baked SMIL, no JS, ~48 s cycle.
+A Dr. Mario offshoot. **Drift viruses** (plasma) accumulate in the bottle when reasoning leaves residue. **Audit capsules** (solar / cyan / sage) fall from above; aligning four-in-a-row of one color removes the run — same loop as the trace above, rendered as a containment game.
+
+The SVG above is a deterministic precomputed playthrough (pre-baked SMIL, no JS, ~48 s cycle). For the **real playable version** — keyboard, touch, rotations, levels, chain reactions — open **[kuonirad.github.io/dr-audit](https://kuonirad.github.io/dr-audit/)**.
 
 <details>
 <summary><code>/ ledger · trajectory</code></summary>
