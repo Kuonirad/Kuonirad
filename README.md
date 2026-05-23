@@ -25,6 +25,12 @@ and whose causality is *respected*.
 
 ### `§ 02 · thesis`
 
+<div align="center">
+
+<img src="nodes.svg" width="720" alt="Cognitive DAG: a thought packet propagating through inputs → reasoning → audit → commit" />
+
+</div>
+
 > The next generation of AI will not be judged by what it *generates* — but by what it can ***justify***.
 > The frame I work inside is built on three commitments: cognition that is ***auditable***, work that is ***conserved***, and structure that is ***respected***. Reasoning leaves a trace. Energy budgets close. Causal graphs preserve direction.
 
