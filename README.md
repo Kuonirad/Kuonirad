@@ -135,3 +135,4 @@ If any of this resonates — collaborations, audits, deep dives, fellowships —
 <sub>This README is the front door. The full designed homepage — rotating tesseract, glass nav, live audit terminal, glitch hover — lives at **[kuonirad.github.io](https://kuonirad.github.io)** ↗</sub>
 
 </div>
+
